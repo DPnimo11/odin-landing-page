@@ -46,7 +46,8 @@ body {
 
 .wrapper {
     margin: auto;
-    width: 80%;
+    box-sizing: border-box;
+    width: 90%;
     max-width: 1800px;
 }
 
@@ -80,6 +81,10 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     margin: 12px 0px;
+}
+
+.content-button {
+    margin-bottom: 12px;
 }
 
 button {
@@ -176,7 +181,7 @@ button {
 
 .action-statement {
     flex: 1 1 0;
-    min-width: 50px;
+    min-width: 100px;
 }
 
 .highlight {
